@@ -58,13 +58,11 @@ NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
 --------------------------------------------------------------
     501     118.5    72.8     1507.0         4     rust_project.c
 
-4. Number of global variables and their usage.
-
-5. Number of unique tokens and their frequency. 
+4. Number of unique tokens and their frequency. 
  
 the total tokens that has been used in the program are 6028, but the total unique tokens are 1377, i saved it in file called token_frequency that shows all the tokens and the frequency for each one. 
 
-6. Number of branches, loops, and their nesting levels.
+5. Number of branches, loops, and their nesting levels.
 
 it can be determined using the cyclomatic complexity provided above 
 ->next function have 85 possible branches 
@@ -73,7 +71,7 @@ it can be determined using the cyclomatic complexity provided above
 ->main function has 100 possible branches 
 
 
-7. Memory usage patterns 
+6. Memory usage patterns 
 ==244390== Command: ./rust_project
 ==244390== 
 usage: c4 [-s] [-d] file ...
